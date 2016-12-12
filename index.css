@@ -1,0 +1,179 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body{
+    font-family: 'Noto Sans TC', '微軟正黑體';
+    color: rgb(240,240,240);
+}
+section{
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.logo{
+    width: 320px;
+}
+
+
+section{
+}
+video.fullscreen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100000;
+    transform: translateX(-50%) translateY(-50%);
+    transition: 1s opacity;
+}
+section#head .container{
+    z-index: -99999;
+}
+
+section#intro {
+}
+
+section#productions{
+    background-color: black;
+    overflow-y: hidden;
+}
+
+section#contact {
+}
+
+.intro-subtitle {
+    margin-bottom: 7vh;
+}
+
+
+.v-center-sec{
+    position: relative;
+}
+
+.v-center-sec > .container{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.full-scene{
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.intro-text{
+    color: rgb(240,240,240);
+    font-size: 3rem;
+}
+
+.intro-item{
+    color: rgb(240,240,240);
+    font-size: 1.5rem;
+}
+
+.intro-item .glyphicon {
+    font-size: 3rem;
+}
+
+
+#contact-form button{
+    background-color: transparent;
+    color: rgb(240,240,240);
+    border-width: 2px;
+    border-color: rgb(240,240,240);
+    outline: none;
+}
+
+.field {
+    color: rgb(240,240,240);
+    margin: 1rem;
+}
+
+.field > input {
+    background-color: transparent;
+    color: rgb(240,240,240);
+    border-width: 0px 0px 1px 0px;
+    border-color: rgb(240,240,240);
+    width: 100%;
+    outline: none;
+}
+.field > input:focus {
+    border-width: 0px 0px 2px 0px;
+}
+.field > textarea {
+    background-color: transparent;
+    height: 25vh;
+    color: rgb(240,240,240);
+    border-width: 0px 0px 1px 0px;
+    border-color: rgb(240,240,240);
+    width: 100%;
+    outline: none;
+}
+.field > textarea {
+    border-width: 0px 0px 2px 0px;
+}
+
+
+div.production{
+    width: 24vw;
+    height: 100%;
+}
+
+div.production .production-container{
+    position: relative;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+}
+
+div.production .production-container:hover{
+    position: relative;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+div.production .production-container .production-title{
+    visibility: hidden;
+    white-space: normal;
+}
+
+div.production .production-container:hover .production-title{
+    visibility: visible;
+    position: relative;
+    top:50%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.production-group{
+    width: auto;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+div.production{
+    vertical-align: top;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#production-1{
+    background-image: url('./img/production1.jpg');
+}
+
+#production-2{
+    background-image: url('./img/production2.jpg');
+}
+
+#production-3{
+    background-image: url('./img/production3.jpg');
+}
+#production-4{
+    background-image: url('./img/production4.jpg');
+}
