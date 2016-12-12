@@ -20,8 +20,8 @@ video.fullscreen {
     position: fixed;
     top: 50%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 150%;
+    min-height: 150%;
     width: auto;
     height: auto;
     z-index: -100000;
@@ -67,20 +67,20 @@ section#contact {
 
 .intro-text{
     color: rgb(240,240,240);
-    font-size: 3rem;
+    font-size: 3vh;
 }
 
 .intro-item{
     color: rgb(240,240,240);
-    font-size: 1.5rem;
+    font-size: 1.5vh;
 }
 
 .intro-item .glyphicon {
-    font-size: 3rem;
+    font-size: 3vh;
 }
 
 
-#contact-form button{
+#contact-form button{   
     background-color: transparent;
     color: rgb(240,240,240);
     border-width: 2px;
@@ -176,4 +176,25 @@ div.production{
 }
 #production-4{
     background-image: url('./img/production4.jpg');
+}
+
+span.line{
+    width: 100%;
+    content:"";
+    display: inline-block;
+    border: 0.5px 0px;
+    border-style: solid;
+    border-color: rgb(240,240,240);
+}
+
+.vertical-center {
+  display: flex;
+  flex-direction: row;
+}
+.vertical-center > [class^="col-"],
+.vertical-center > [class*=" col-"] {
+  display: flex;
+  align-items: center;     /* Align the flex-items vertically */
+  justify-content: center; /* Optional, to align inner flex-items 
+                             horizontally within the column  */
 }
