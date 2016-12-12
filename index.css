@@ -22,8 +22,8 @@ video.fullscreen {
     left: 50%;
     min-width: 150%;
     min-height: 150%;
-    width: auto;
-    height: auto;
+    width: 150%;
+    height: 150%;
     z-index: -100000;
     transform: translateX(-50%) translateY(-50%);
     transition: 1s opacity;
